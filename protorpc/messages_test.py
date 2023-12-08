@@ -194,7 +194,7 @@ class EnumTest(test_util.TestCase):
     """Test that numbers too large are rejected."""
     self.assertRaises(messages.EnumDefinitionError,
                       messages.Enum.def_enum,
-                      {'Bad': (2 ** 29)},
+                      {'Bad': (2 ** 31)},
                       'BadEnum')
 
   def testRepeatedInt(self):

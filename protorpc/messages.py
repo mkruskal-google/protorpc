@@ -160,7 +160,7 @@ _POST_INIT_ATTRIBUTE_NAMES = frozenset(
 
 # Maximum enumeration value as defined by the protocol buffers standard.
 # All enum values must be less than or equal to this value.
-MAX_ENUM_VALUE = (2 ** 29) - 1
+MAX_ENUM_VALUE = (2 ** 31) - 1
 
 # Maximum field number as defined by the protocol buffers standard.
 # All field numbers must be less than or equal to this value.
